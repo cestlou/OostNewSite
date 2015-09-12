@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body class="container">
+	<table>
+		<%= link_to 'New Article', new_article_path %>
+		<%= link_to 'Back To About Me', controller: 'about_me' %>
+		<tr>
+			<th>Title</th>
+			<th>Body</th>
+		</tr>
+		<% @articles.each do |article| %>
+			<tr>
+				<td>
+					<%= article.title %>
+				</td>
+				<td>
+					<%= article.text %>
+				</td>
+			</tr>
+		<% end %>
+	</table>
+</body>
+</html>

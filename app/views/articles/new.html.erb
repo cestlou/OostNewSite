@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add A New Post</title>
+</head>
+<body class="container">
+	<h3 class="duh" style="color: green;">yo you have some shit to say?</h3>
+
+	<%= form_for :article, url: articles_path do |f| %>
+		<p>
+			<%= f.label :title %> <br />
+			<%= f.text_field :title %>
+		</p>
+
+		<p>
+			<%= f.label :text %> <br />
+			<%= f.text_field :text %>
+		</p>
+		<p>
+			<%= f.submit %>
+		</p>
+	<% end %>
+	<%= link_to 'Back', articles_path %>
+</body>
+</html>

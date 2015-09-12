@@ -1,0 +1,42 @@
+// Place all the styles related to the about-me controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+	font-family: Andale Mono;
+	vertical-align: middle;
+	padding: 100px 0px 100px 300px;
+}
+.about-container {
+	/*display: inline-block;*/
+	max-width: 25em;
+	display: inline-block;
+	vertical-align: top;
+}
+.sub-header {
+	font-style: italic;
+	color: purple;
+	margin-bottom: 0em;
+}
+.header {
+	color: blue
+}
+a {
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+.bio-container {
+	display:inline-block;
+	width: 200px;
+	height: 120px;
+	margin: none;
+}
+
+.bio-image {
+	background-image: url('me.jpg');
+	/*position: absolute;*/
+	max-width: 20em;
+	background-repeat: no-repeat;
+	height: auto;
+}
