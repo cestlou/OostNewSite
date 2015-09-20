@@ -2,30 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.container {
-	font-family: Andale Mono;
-	vertical-align: middle;
-	padding: 100px 0px 100px 300px;
-}
-.about-container {
-	/*display: inline-block;*/
-	max-width: 25em;
-	display: inline-block;
-	vertical-align: top;
-}
+
 .sub-header {
 	font-style: italic;
-	color: purple;
+	color: #bc7878;
 	margin-bottom: 0em;
 }
+
 .header {
-	color: blue
+	color: red
 }
+
 a {
-	text-decoration: none;
 	color: red;
 	font-weight: bold;
+	text-decoration: none;
+	&:hover { text-decoration: underline;
+		outline: none;
+	}
 }
+
 .bio-container {
 	display:inline-block;
 	width: 200px;
@@ -36,7 +32,19 @@ a {
 .bio-image {
 	background-image: url('me.jpg');
 	/*position: absolute;*/
-	max-width: 20em;
+	max-width: 30em;
 	background-repeat: no-repeat;
 	height: auto;
 }
+
+body {
+	background-image: url('about-background.jpg')
+}
+
+.about-container {
+	background-color: white;
+}
+
+
+
+
