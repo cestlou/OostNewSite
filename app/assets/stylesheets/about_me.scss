@@ -5,12 +5,26 @@
 
 .sub-header {
 	font-style: italic;
-	color: #bc7878;
+	color: #fff;
 	margin-bottom: 0em;
 }
 
 .header {
-	color: red
+	color: red;
+	// font-style: italic;
+	font-size: 62px;
+	font-family: 'Tangerine', cursive, serif;
+}
+
+.more-info {
+	color: #fff;
+	// background: -webkit-linear-gradient(276deg, black, white); /* For Safari 5.1 to 6.0 */
+	// background: -o-linear-gradient(276deg, black, white); /* For Opera 11.1 to 12.0 */
+	// background: -moz-linear-gradient(276deg, black, white); /* For Firefox 3.6 to 15 */
+	// background: linear-gradient(276deg, black, white); /* Standard syntax */
+	//   background: -webkit-gradient(#eee, #333);
+	// -webkit-background-clip: text;
+	// -webkit-text-fill-color: transparent;
 }
 
 a {
@@ -35,14 +49,23 @@ a {
 	max-width: 30em;
 	background-repeat: no-repeat;
 	height: auto;
+	margin: -252px 0 75px 875px;
 }
 
 body {
-	background-image: url('about-background.jpg')
+  background: -webkit-linear-gradient(276deg, white, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(276deg, white, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(276deg, white, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(276deg, white, black); /* Standard syntax */
 }
 
 .about-container {
-	background-color: white;
+	// background: -webkit-linear-gradient(276deg, black, white); /* For Safari 5.1 to 6.0 */
+	// background: -o-linear-gradient(276deg, black, white); /* For Opera 11.1 to 12.0 */
+	// background: -moz-linear-gradient(276deg, black, white); /* For Firefox 3.6 to 15 */
+	// background: linear-gradient(276deg, black, white); /* Standard syntax */
+
+	margin: 1em 14em 1em 14em;
 }
 
 
